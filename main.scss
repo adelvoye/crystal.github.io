@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: linear-gradient(rgb(48, 2, 48), rgb(2, 2, 53));
+  font-family:'Cormorant SC', sans-serif;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+}
+
+
+//0 to 768px// 
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  .crystals {
+    margin: 0 auto;
+
+    
+  }
+  
+}
